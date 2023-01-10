@@ -15,6 +15,7 @@ h2{
         font-size: 200px;
         color: white;
         background-color: black;
+        text-align: center;
 } 
 h3{
         font-size: 14px;
@@ -22,3 +23,4 @@ h3{
 p{
         font-size: 18px;
 }
+
