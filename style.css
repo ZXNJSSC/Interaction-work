@@ -37,6 +37,23 @@ img{
         border: 0.5px solid black;
 }
 
+.scroll-container{
+        overflow: auto;
+        white-space: nowrap;
+        padding: 5px 70px 5px 20px;
+        background: transparent;
+        height: 100%;
+        border-radius: 15px;
+}
+
+.gridscroll{
+        display: inline-block;
+}
+
+.gridscroll img{
+        margin-right: 22px;
+}
+
 /*::-webkit-scrollbar{width:2px;height:2px;}
 ::-webkit-scrollbar-button{width:2px;height:2px;}*/
 
@@ -47,6 +64,8 @@ div{
 .horizontal-scroll-wrapper{
   position:absolute;
   display:block;
+  top:0;
+  left:0;
   width:1000px;
   height:1000px;
   overflow-y:auto;
@@ -64,3 +83,4 @@ div{
         width:895px;
         height:972px;
 }
+
