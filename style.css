@@ -54,3 +54,19 @@ div{
         transform: rotate(-90deg) translateY(-80px);
         transform-origin: right top;
 }
+.horizontal-scroll-wrapper > div{
+        display: block;
+        padding: 5px;
+        transform: rotate(90deg);
+        transform-origin: right top;
+}
+
+.squares{
+        padding: 60px 0 0 0;
+}
+
+.squares > div{
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+}
