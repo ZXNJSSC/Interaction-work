@@ -11,7 +11,6 @@
         font-family:"Brut Grotesque";
         src: url(BrutGrotesque/__MACOSX/BrutGrotesque\ 2/);
 }  
- 
 h2,h3,p{
         font-family: "Brut Grotesque";
 }  
@@ -23,8 +22,15 @@ h2{
 } 
 h3{
         font-size: 14px;
+        color: white;
+        background-color: black;
 }
 p{
         font-size: 18px;
+}
+img{
+        display: block;
+        width: 30%;
+        border: 0.5px solid black;
 }
 
