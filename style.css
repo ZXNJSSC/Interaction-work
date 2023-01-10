@@ -33,33 +33,3 @@ img{
         width: 30%;
         border: 0.5px solid black;
 }
-
-::-webkit-scrollbar{width:2px;height:2px;}
-
-div{
-  box-sizing:border-box;
-}
-
-.horizontal-scroll-wrapper{
-        position: absolute;
-        display:block;
-        width:895px;
-        height:972px;
-        margin:0;
-        overflow-y:auto;
-        overflow-x:hidden;
-        transform:rotate(-90deg) translateY(-80px);
-        transform-origin: center;
-      }
-      .horizontal-scroll-wrapper > div{
-        display:block;
-        padding:5px;
-       transform:rotate(90deg);
-       transform-origin: center;
-      }
-      
-      .squares > div{
-        width:895px;
-        height:972px;
-        margin: 10px;
-      }
