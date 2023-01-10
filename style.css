@@ -7,6 +7,10 @@
             box-sizing: border-box;
     font-size: 100%;
   }
+@font-face {
+        font-family:"Brut Grotesque";
+        src: url(BrutGrotesque/__MACOSX/BrutGrotesque\ 2/);
+}  
  
 h2,h3,p{
         font-family: "Brut Grotesque";
