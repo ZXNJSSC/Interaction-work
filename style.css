@@ -33,3 +33,31 @@ img{
         width: 30%;
         border: 0.5px solid black;
 }
+
+/*::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}*/
+
+div{
+  box-sizing:border-box;
+}
+
+.horizontal-scroll-wrapper{
+  position:absolute;
+  display:block;
+  width:1000px;
+  height:1000px;
+  overflow-y:auto;
+  overflow-x:hidden;
+  transform:rotate(-90deg) translateY(-80px);
+  transform: origin 0;
+}
+.horizontal-scroll-wrapper > div{
+  display:block;
+  transform:rotate(90deg);
+  transform: origin 0;
+}
+
+.squares > div{
+        width:895px;
+        height:972px;
+}
