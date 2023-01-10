@@ -37,8 +37,8 @@ img{
 ::-webkit-scrollbar{width:2px;height:2px;}
 
 div{
-        box-sizing:border-box;
-      }
+  box-sizing:border-box;
+}
 
 .horizontal-scroll-wrapper{
         position: absolute;
@@ -61,4 +61,5 @@ div{
       .squares > div{
         width:895px;
         height:972px;
+        margin: 10px;
       }
