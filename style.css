@@ -5,14 +5,26 @@
     border: 0;
     font-size: 100%;
   }
+                                /* Inserimento dei font */  
 @font-face {
-        font-family:"Brut Grotesque";
-        src: url(BrutGrotesque/__MACOSX/BrutGrotesque\ 2/);
-}  
+        font-family:"brutgrotesque";
+        src: url(brutgrotesque/BrutGrotesque-Medium.otf);
+        font-weight: medium;
+} 
+@font-face {
+        font-family:"brutgrotesque" ;
+        src: url(brutgrotesque/BrutGrotesque-BoldItalic.otf);
+        font-weight: bold italic;
+}
+@font-face {
+        font-family:"brutgrotesque" ;
+        src: url(brutgrotesque/BrutGrotesque-Bold.otf);
+        font-weight: bold;
+}
+                                /* Fine inscerimento font*/
 h2,h3,p{
-        font-family: "Brut Grotesque";
+        font-family: "brutgrotesque";
         padding-left: 15px;
-        padding-right: 15px;
 }  
 h2{
         font-size: 200px;
@@ -37,19 +49,38 @@ p{
 img{
         display: block;
         width: 30%;
+        height: auto;
         border: 0.5px solid black;
 }
+.img_2{
+        width: 60%;
+        display: block;
+        height: auto
 
+}
 .flexgrid{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;    
 }
 
-.tex{
-        float: right;
-        padding: 15px;
-        text-align: justify;
-        justify-content: right;
-}
-
+.column {
+        float: left;
+        }
+ .left {
+        width: 20%;
+        }
+            
+.middle {
+        width: 30%;
+        }
+                
+.right {
+        width: 50%;
+        }
+            
+.row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }        
