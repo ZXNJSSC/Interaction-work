@@ -22,6 +22,7 @@ h2{
         color: white;
         background-color: black;
         font-style: bold italic;
+        
 }
 h3{
         font-size: 14px;
@@ -37,22 +38,12 @@ img{
         border: 0.5px solid black;
 }
 
-.scroll-container{
-        overflow: auto;
-        white-space: nowrap;
-        padding: 5px 70px 5px 20px;
-        background: transparent;
-        height: 100%;
-        border-radius: 15px;
+.flexgrid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;    
 }
 
-.gridscroll{
-        display: inline-block;
-}
-
-.gridscroll img{
-        margin-right: 22px;
-}
 
 /*::-webkit-scrollbar{width:2px;height:2px;}
 ::-webkit-scrollbar-button{width:2px;height:2px;}*/
@@ -69,7 +60,7 @@ div{
   height:1000px;
   margin: 50px;
   overflow-y:auto;
-  overflow-x:hidden;
+  overflow-x: hidden;
   transform:rotate(-90deg) translateY(-80px);
   transform-origin: center;
 }
