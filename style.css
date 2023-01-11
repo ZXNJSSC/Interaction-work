@@ -11,7 +11,7 @@
 }  
 h2,h3,p{
         font-family: "Brut Grotesque";
-        padding-left: 10px;
+        padding-left: 15px;
         padding-right: 15px;
 }  
 h2{
@@ -36,7 +36,6 @@ p{
 }
 img{
         display: block;
-        width: 50%;
         border: 0.5px solid black;
 }
 
