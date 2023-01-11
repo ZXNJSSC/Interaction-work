@@ -22,11 +22,14 @@
         font-weight: bold;
 }
                                 /* Fine inscerimento font*/
+
 h2,h3,p{
-        font-family: "brutgrotesque";
         padding-left: 15px;
-}  
+}
+        
 h2{
+        font-family: "brutgrotesque";
+        font-weight: bold;
         font-size: 200px;
         color: white;
         background-color: black;
@@ -35,17 +38,29 @@ h2{
 .des{
         color: white;
         background-color: black;
-        font-style: bold italic;
+        font-family: "brutgrotesque";
+        font-weight: bold italic;
         
 }
 h3{
         font-size: 14px;
+        font-family: "brutgrotesque";
+        font-weight: bold;
 
 }
 p{
         font-size: 18px;
-        font-style: medium;
+        font-family: "brutgrotesque";
+        font-weight: medium;      
 }
+
+.rif{
+        font-family: "brutgrotesque";
+        font-weight: bold;
+        font-size: 14px;
+
+}
+
 img{
         display: block;
         width: 30%;
