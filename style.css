@@ -36,6 +36,7 @@ p{
 }
 img{
         display: block;
+        width: 30%;
         border: 0.5px solid black;
 }
 
