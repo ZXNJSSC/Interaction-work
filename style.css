@@ -76,6 +76,7 @@ img{
         height: auto
 }
 
+
 .carousel{
         background-color: #ffff;
         display: flex;
@@ -159,7 +160,8 @@ img{
 #item-2:target~.item-2,
 #item-3:target~.item-3,
 #item-4:target~.item-4,
-#item-5:target~.item-5{
+#item-5:target~.item-5
+{
         z-index: 7;
         opacity: 1;
 }
